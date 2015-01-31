@@ -1,0 +1,21 @@
+from frappe import _
+
+def get_data():
+	return [
+		{
+			"label": _("Export Documents"),
+			"icon": "icon-list",
+			"items": [
+				{
+					"type": "doctype",
+					"name": "Bill Of exchange",
+					"description": _("Bill Of exchange, Export Document"),
+				},
+				{
+					"type": "doctype",
+					"name": "secona_doc",
+					"description": _("Bill Of exchange, Export Document"),
+				},
+			]
+		},
+	]

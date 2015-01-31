@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include secona *.css
+recursive-include secona *.csv
+recursive-include secona *.html
+recursive-include secona *.ico
+recursive-include secona *.js
+recursive-include secona *.json
+recursive-include secona *.md
+recursive-include secona *.png
+recursive-include secona *.py
+recursive-include secona *.svg
+recursive-include secona *.txt
+recursive-exclude secona *.pyc
